@@ -1,0 +1,4 @@
+.newPost{
+    grid-area: newPost;
+    background-color: aqua;
+}

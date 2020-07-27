@@ -1,0 +1,4 @@
+.newMessage{
+    grid-area: newMessage;
+    background-color: blueviolet;
+}
