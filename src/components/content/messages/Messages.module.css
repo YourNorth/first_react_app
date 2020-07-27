@@ -1,0 +1,11 @@
+.messages {
+    display: grid;
+    grid-area: messages;
+    padding: 6px;
+    background-color: dimgray;
+
+    grid-template-columns: 2fr 10fr;
+
+    grid-template-areas:
+        "companions" "dialogs";
+}

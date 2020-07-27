@@ -1,0 +1,5 @@
+.companions {
+    grid-area: companions;
+    padding: 5px;
+    background-color: darkmagenta;
+}

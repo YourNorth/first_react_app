@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom";
 const NavBar = () => {
     let profile = '/profile',
         news = '#',
-        messages = '/dialogs',
+        messages = '/messages',
         profile_name = 'Profile',
         news_name = 'News',
         messages_name = 'Messages';

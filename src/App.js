@@ -4,8 +4,8 @@ import Header from "./components/index/header/Header";
 import NavBar from "./components/index/navbar/NavBar";
 import Profile from "./components/content/profile/Profile";
 import Footer from "./components/index/footer/Footer";
-import Dialogs from "./components/content/dialogs/Dialogs";
 import {BrowserRouter, Route} from "react-router-dom";
+import Messages from "./components/content/messages/Messages";
 
 function App(props) {
     return (
@@ -15,7 +15,7 @@ function App(props) {
                 <NavBar/>
                 <div className={App.content}>
                     <Route path='/profile' component={Profile}/>
-                    <Route path='/dialogs' component={Dialogs}/>
+                    <Route path='/messages' component={Messages}/>
                 </div>
                 <Footer/>
             </div>

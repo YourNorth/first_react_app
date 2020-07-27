@@ -1,0 +1,5 @@
+.companionItem {
+    grid-area: companionItem;
+    background-color: lavenderblush;
+    padding: 3px;
+}
